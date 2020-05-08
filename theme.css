@@ -1,0 +1,27 @@
+@import "normalize.css";
+
+:root {
+    --header-bg-color: #9DBDC6;
+    --main-bg-color: #FFFFFF;
+    --footer-bg-color: #FF3D2E;
+    --aside-bg-color: #DAEAEF;
+    --nav-bg-color: #272F32
+}
+
+.color-square {
+    height: 3em;
+    width: 3em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.bg-header {
+    background-color: var(--header-bg-color);
+}
+
+
+.bg-main {
+    background-color: var(--main-bg-color);
+}
+
+.bg-footer {
+    background-color: var(--footer-bg-color);
+}
